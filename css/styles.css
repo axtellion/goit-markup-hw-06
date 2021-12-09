@@ -825,11 +825,16 @@ address {
   color: #212121;
 }
 
-.modal-wrap:not(:last-child) {
+.modal-wrap {
   margin-bottom: 10px;
 }
 
+.modal-wrap:nth-child(4) {
+  margin-bottom: 20px;
+}
+
 .modal-input {
+  display: block;
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -895,6 +900,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 
   color: var(--second-text-color);
 }
@@ -907,6 +913,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1px;
 }
 
 .ckeck-icon {
@@ -924,11 +931,6 @@ address {
   background-color: var(--accent-color);
   border: none;
 }
-
-.modal-btn {
-  margin-top: 30px;
-}
-
 .modal-btn-wrap {
   display: flex;
   justify-content: center;
